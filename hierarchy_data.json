@@ -1,0 +1,61 @@
+{
+  "name": "Global Store",
+  "children": [
+    {
+      "name": "Fruits",
+      "children": [
+        {
+          "name": "Citrus",
+          "children": [
+            {"name": "Orange", "value": 45},
+            {"name": "Lemon", "value": 20},
+            {"name": "Grapefruit", "value": 15}
+          ]
+        },
+        {
+          "name": "Berries",
+          "children": [
+            {"name": "Strawberry", "value": 60},
+            {"name": "Blueberry", "value": 85},
+            {"name": "Raspberry", "value": 30}
+          ]
+        },
+        {"name": "Apple", "value": 50},
+        {"name": "Banana", "value": 30},
+        {"name": "Mango", "value": 95},
+        {"name": "Pineapple", "value": 40}
+      ]
+    },
+    {
+      "name": "Toys",
+      "children": [
+        {
+          "name": "Construction",
+          "children": [
+            {"name": "Lego Star Wars", "value": 150},
+            {"name": "Technic Crane", "value": 200},
+            {"name": "Architecture Set", "value": 120}
+          ]
+        },
+        {
+          "name": "Board Games",
+          "children": [
+            {"name": "Chess", "value": 25},
+            {"name": "Monopoly", "value": 40},
+            {"name": "Catan", "value": 55}
+          ]
+        },
+        {
+          "name": "Dolls & Action Figures",
+          "children": [
+            {"name": "Barbie", "value": 35},
+            {"name": "Spider-Man", "value": 20},
+            {"name": "Transformers", "value": 45}
+          ]
+        },
+        {"name": "Remote Car", "value": 80},
+        {"name": "Teddy Bear", "value": 15}
+      ]
+    }
+  ]
+}

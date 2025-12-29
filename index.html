@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Product Tree</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <h2>🌳 Tree Navigator</h2>
+            <p class="subtitle">Product Sales Hierarchy</p>
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Search product name..." onkeyup="searchNode()">
+            </div>
+            <hr>
+            <div class="guide-section">
+                <h3>Quick Guide</h3>
+                <ul>
+                    <li><strong>Click</strong> nodes to expand/collapse.</li>
+                    <li><strong>Scroll</strong> to zoom in/out.</li>
+                    <li><strong>Drag</strong> to pan the view.</li>
+                    <li><strong>Hover</strong> for sales details.</li>
+                </ul>
+            </div>
+            <button class="btn-update" onclick="location.reload()">Reset View</button>
+            <button class="btn-update" style="background: #10b981;" onclick="loadNewData()">Simulate Live Update</button>
+        </aside>
+
+        <main class="chart-area">
+            <header class="chart-header">
+                <h1>Sales Visualization</h1>
+                <div id="tooltip" class="hidden-tooltip"></div>
+            </header>
+            <div id="tree-container"></div>
+        </main>
+    </div>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
